@@ -357,6 +357,10 @@ footer .form-element {
   margin-bottom: 30px;
 }
 
+textarea {
+  padding: 0 5px 2px 10px;
+}
+
 footer textarea {
   border-bottom: #fff;
   background-color: #fbf8f7;
@@ -416,6 +420,3 @@ textarea::placeholder {
   top: 10px;
 }
 
-textarea {
-  padding: 0 5px 2px 10px;
-}
