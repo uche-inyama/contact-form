@@ -402,6 +402,10 @@ footer textarea {
   top: 30px;
 }
 
+input.submit:hover {
+  background-color: #ffa500;
+}
+
 input[type="email"]::placeholder,
 input[type="text"]::placeholder {
   position: relative;
