@@ -357,12 +357,13 @@ footer .form-element {
   margin-bottom: 30px;
 }
 
-footer input.textarea {
+footer textarea {
   border-bottom: #fff;
   background-color: #fbf8f7;
   height: 114px;
   width: 100%;
 }
+
 
 .footer-header {
   position: static;
@@ -395,13 +396,13 @@ footer input.textarea {
   font-weight: normal;
 }
 
-input[type="textarea"]::placeholder {
+textarea span {
+  position: relative;
   bottom: 40px;
 }
 
 input[type="email"]::placeholder,
-input[type="text"]::placeholder,
-input[type="textarea"]::placeholder {
+input[type="text"]::placeholder {
   position: relative;
   left: 10px;
 }
