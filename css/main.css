@@ -360,7 +360,6 @@ footer .form-element {
 footer textarea {
   border-bottom: #fff;
   background-color: #fbf8f7;
-  height: 114px;
   width: 100%;
 }
 
@@ -407,7 +406,16 @@ input.submit:hover {
 }
 
 input[type="email"]::placeholder,
-input[type="text"]::placeholder {
+input[type="text"]::placeholder,
+textarea::placeholder {
   position: relative;
-  left: 10px;
+  left: 0;
+}
+
+textarea::placeholder {
+  top: 10px;
+}
+
+textarea {
+  padding: 0 5px 2px 10px;
 }
