@@ -338,7 +338,7 @@ form {
 
 .font-style {
   border: #fff;
-  font-family: Inter;
+  font-family: Inter, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   line-height: 24px;
   font-size: 15px;
@@ -368,9 +368,9 @@ footer input.textarea {
   position: static;
   width: 327px;
   height: 216px;
-  left: 0px;
-  top: 0px;
-  font-family: Inter;
+  left: 0;
+  top: 0;
+  font-family: Inter, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -399,9 +399,9 @@ input[type="textarea"]::placeholder {
   bottom: 40px;
 }
 
-input[type="email"]::placeholder, 
+input[type="email"]::placeholder,
 input[type="text"]::placeholder,
 input[type="textarea"]::placeholder {
   position: relative;
-  left: 10px; 
+  left: 10px;
 }
