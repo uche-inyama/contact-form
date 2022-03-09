@@ -3,7 +3,7 @@
 
 # Project Name
 
-## mobile-view-contact-form
+## Mobile-view-contact-form
 
 > Description the project.
 
@@ -14,6 +14,7 @@ This project, covers how to parse a [Figma design](https://www.figma.com/file/t3
 - HTML
 - CSS
 
+## Live Demo
 
 ## Getting Started
 
@@ -26,8 +27,19 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone the repository, then cd into the root directory, look for index.html
-and right click on it, then copy the link path, paste it on your browser, and you are good to go.
+- Clone the repository 
+- cd into the root directory
+- Look for index.html
+- Right click on it 
+- Copy the link path, paste it on your browser, and you are good to go.
+
+### Install
+
+### Usage
+
+### Run tests
+
+### Deployment
 
 
 ## Authors
